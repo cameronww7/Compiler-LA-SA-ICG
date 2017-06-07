@@ -1,0 +1,15 @@
+@@
+
+int i,max;
+
+@@
+
+i := 1;
+max := 1001;
+    read( max);
+
+while(i < max)
+{
+	i := i + 1;
+}
+     write (max);

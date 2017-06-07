@@ -1,0 +1,53 @@
+
+  Token            Lexeme
+
+Separator         @@
+Keyword           int
+Identifier        i
+Separator         ,
+Identifier        max
+Separator         ,
+Identifier        sum
+Operator          ;
+Separator         @@
+Identifier        sum
+Operator          :=
+Integer           0
+Operator          ;
+Identifier        i
+Operator          :=
+Integer           1
+Operator          ;
+Keyword           read
+Separator         (
+Identifier        max
+Separator         )
+Operator          ;
+Keyword           while
+Separator         (
+Identifier        i
+Operator          <
+Identifier        max
+Separator         )
+Separator         {
+Identifier        sum
+Operator          :=
+Identifier        sum
+Operator          +
+Identifier        i
+Operator          ;
+Identifier        i
+Operator          :=
+Identifier        i
+Operator          +
+Integer           1
+Operator          ;
+Separator         }
+Keyword           write
+Separator         (
+Identifier        sum
+Operator          +
+Identifier        max
+Separator         )
+Operator          ;
+

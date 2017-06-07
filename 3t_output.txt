@@ -1,0 +1,36 @@
+Reached EOF with Assembly Code Listing:
+----------------------
+1     PUSHI   0
+2     POPM    1000
+3     PUSHI   2
+4     POPM    1001
+5     PUSHI   11
+6     POPM    1002
+7     PUSHM   1000
+8     PUSHI   0
+9     EQU     
+10    JUMPZ   15
+11    PUSHM   1000
+12    PUSHM   1001
+13    SUB     
+14    POPM    1003
+15    PUSHM   1002
+16    PUSHM   1001
+17    ADD     
+18    POPM    1004
+
+Symbol Table:
+-------------
+Identifier    Memory Location   Type
+----------    ---------------   ----
+jim           1000              integer
+weight        1001              integer
+over          1002              integer
+make          1003              integer
+hes           1004              integer
+
+Warning: The following are uninitialized variables: 
+Identifier    Memory Location   Type
+----------    ---------------   ----
+make          1003              integer
+hes           1004              integer

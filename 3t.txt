@@ -1,0 +1,15 @@
+
+@@
+/* if a 
+jack could
+would chuck
+i would chuck the would if he could chuck * */
+	int jim,weight,over,make,hes;
+@@
+	jim := 0;
+	weight := 2;
+		over := 11;
+
+	if(jim = 0) 	{make := jim - weight; } endif
+
+	hes := over + weight;

@@ -1,0 +1,35 @@
+Reached EOF with Assembly Code Listing:
+----------------------
+1     PUSHI   0
+2     POPM    1002
+3     PUSHI   1
+4     POPM    1000
+5     STDIN   
+6     POPM    1001
+7     LABEL   
+8     PUSHM   1000
+9     PUSHM   1001
+10    LES     
+11    EQU     
+12    JUMPZ   22
+13    PUSHM   1002
+14    PUSHM   1000
+15    ADD     
+16    POPM    1002
+17    PUSHM   1000
+18    PUSHI   1
+19    ADD     
+20    POPM    1000
+21    JUMP    7
+22    PUSHM   1002
+23    PUSHM   1001
+24    ADD     
+25    STDOUT  
+
+Symbol Table:
+-------------
+Identifier    Memory Location   Type
+----------    ---------------   ----
+i             1000              integer
+max           1001              integer
+sum           1002              integer
